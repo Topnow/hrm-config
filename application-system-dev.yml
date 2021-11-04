@@ -1,6 +1,6 @@
 server:
   port: 9001
-
+spring:
   datasource:
     url: jdbc:mysql:///hrm-system?useSSL=false&useUicode=true&characterEncoding=UTF-8
 
