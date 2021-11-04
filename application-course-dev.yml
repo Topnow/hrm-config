@@ -1,0 +1,12 @@
+server:
+  port: 9002
+
+spring:
+  datasource:
+    url: jdbc:mysql:///hrm-course?useSSL=false&useUicode=true&characterEncoding=UTF-8
+
+# swagger 自动配置
+hrm:
+  swagger:
+    title: "课程管理服务"
+    description: "课程管理服务接口文档"
